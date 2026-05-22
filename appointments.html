@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Request an Appointment — Pavani Ayinampudi</title>
+  <meta name="description" content="Request a consultation or meeting with Pavani Ayinampudi." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Pavani Ayinampudi</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="appointments.html" class="active">Connect</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+
+    <div class="page-hero">
+      <div class="section-label">Connect</div>
+      <h1>Request an Appointment</h1>
+      <p>Open to conversations about leadership opportunities, advisory engagements, collaborations, and consultations on higher ed governance or AI literacy.</p>
+    </div>
+
+    <section>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+
+        <!-- Form -->
+        <div>
+          <h2 style="margin-bottom:1.5rem;">Send a request</h2>
+          <form id="appt-form" onsubmit="handleSubmit(event)">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name *</label>
+                <input type="text" id="first-name" name="first_name" required placeholder="Your first name" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name *</label>
+                <input type="text" id="last-name" name="last_name" required placeholder="Your last name" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="organisation">Organisation / Institution</label>
+              <input type="text" id="organisation" name="organisation" placeholder="Where you work or study" />
+            </div>
+
+            <div class="form-group">
+              <label for="meeting-type">What would you like to discuss? *</label>
+              <select id="meeting-type" name="meeting_type" required>
+                <option value="" disabled selected>Select a topic</option>
+                <option value="leadership">Leadership opportunity or role</option>
+                <option value="advisory">Advisory or consulting engagement</option>
+                <option value="collaboration">Research or program collaboration</option>
+                <option value="speaking">Speaking or workshop invitation</option>
+                <option value="ai-literacy">AI literacy program enquiry</option>
+                <option value="governance">Higher ed governance consultation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="preferred-time">Preferred time / timezone</label>
+              <input type="text" id="preferred-time" name="preferred_time" placeholder="e.g. Weekday mornings IST, flexible" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell me more *</label>
+              <textarea id="message" name="message" required placeholder="A brief description of what you'd like to discuss, and any relevant context..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Request</button>
+
+            <div class="success-msg" id="success-msg">
+              Thank you — I've received your request and will be in touch within 2–3 business days.
+            </div>
+
+          </form>
+
+          <!-- Fallback note -->
+          <p class="text-muted" style="margin-top:1rem; font-size:0.78rem;">
+            Note: This form sends a message directly to my inbox. If you prefer, you can also email me at <a href="mailto:savante2187@gmail.com" style="color:var(--accent);">savante2187@gmail.com</a>.
+          </p>
+        </div>
+
+        <!-- Sidebar -->
+        <div>
+          <h2 style="margin-bottom:1.2rem;">What I'm open to</h2>
+
+          <div class="card" style="margin-bottom:1rem;">
+            <div class="card-icon">🏛️</div>
+            <h3>Leadership Roles</h3>
+            <p>Director, VP, Head of Programs, Dean, or equivalent — in higher education institutions, development sector organisations, or policy bodies. Open to remote-friendly roles based in Hyderabad.</p>
+          </div>
+
+          <div class="card" style="margin-bottom:1rem;">
+            <div class="card-icon">🤝</div>
+            <h3>Advisory &amp; Consulting</h3>
+            <p>Short- and medium-term engagements on higher ed governance, AI literacy program design, faculty development, or curriculum reform.</p>
+          </div>
+
+          <div class="card" style="margin-bottom:1rem;">
+            <div class="card-icon">🎤</div>
+            <h3>Speaking &amp; Workshops</h3>
+            <p>Conference keynotes, panel discussions, and workshops on AI in higher education, equity in education systems, and governance innovation.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🌐</div>
+            <h3>Collaborations</h3>
+            <p>Joint research, curriculum co-design, or program partnerships — especially those centred on first-generation learners and emerging markets in higher education.</p>
+          </div>
+
+          <div style="margin-top:1.5rem; padding:1rem 1.2rem; background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius);">
+            <p class="text-muted" style="margin-bottom:0.3rem;"><strong style="color:var(--ink);">Response time</strong></p>
+            <p class="text-muted">I aim to reply within 2–3 business days.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Responsive stack on small screens -->
+      <style>
+        @media (max-width: 680px) {
+          section > div { grid-template-columns: 1fr !important; }
+        }
+      </style>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2025 Pavani Ayinampudi &nbsp;·&nbsp; <a href="mailto:savante2187@gmail.com">savante2187@gmail.com</a> &nbsp;·&nbsp; Hyderabad, India</p>
+  </div>
+</footer>
+
+<script>
+  function handleSubmit(e) {
+    e.preventDefault();
+    const form = document.getElementById('appt-form');
+    const data = new FormData(form);
+
+    // Build mailto link as graceful fallback (no backend needed for GitHub Pages)
+    const name    = `${data.get('first_name')} ${data.get('last_name')}`;
+    const email   = data.get('email');
+    const org     = data.get('organisation') || 'Not provided';
+    const topic   = data.get('meeting_type');
+    const timing  = data.get('preferred_time') || 'Not specified';
+    const message = data.get('message');
+
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nOrganisation: ${org}\nTopic: ${topic}\nPreferred time: ${timing}\n\n${message}`
+    );
+
+    window.location.href = `mailto:savante2187@gmail.com?subject=Appointment Request — ${encodeURIComponent(topic)}&body=${body}`;
+
+    // Show confirmation
+    const msg = document.getElementById('success-msg');
+    msg.style.display = 'block';
+    form.reset();
+    window.scrollTo({ top: msg.offsetTop - 80, behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>
