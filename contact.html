@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact — Pavani Ayinampudi</title>
-  <meta name="description" content="Get in touch with Pavani Ayinampudi." />
+  <meta name="description" content="Get in touch with Pavani Ayinampudi — speaking invitations, advisory engagements, collaborations, and general enquiries." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -18,7 +18,6 @@
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="teaching.html">Teaching</a></li>
       <li><a href="writing.html">Writing</a></li>
-      <li><a href="appointments.html">Connect</a></li>
       <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
   </div>
@@ -30,20 +29,26 @@
     <div class="page-hero">
       <div class="section-label">Contact</div>
       <h1>Get in Touch</h1>
-      <p>For quick enquiries, partnerships, or media requests. For a scheduled conversation, use the <a href="appointments.html" style="color:var(--accent);">appointment form</a>.</p>
+      <p>Open to leadership roles, advisory engagements, speaking invitations, and research collaborations. Fill in the form or email directly.</p>
     </div>
 
     <section>
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start;">
 
-        <!-- Quick form -->
+        <!-- Form -->
         <div>
           <h2 style="margin-bottom:1.5rem;">Send a message</h2>
           <form id="contact-form" onsubmit="handleContact(event)">
 
-            <div class="form-group">
-              <label for="c-name">Your Name *</label>
-              <input type="text" id="c-name" name="name" required placeholder="Full name" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name *</label>
+                <input type="text" id="first-name" name="first_name" required placeholder="Your first name" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name *</label>
+                <input type="text" id="last-name" name="last_name" required placeholder="Your last name" />
+              </div>
             </div>
 
             <div class="form-group">
@@ -52,48 +57,70 @@
             </div>
 
             <div class="form-group">
-              <label for="c-subject">Subject *</label>
-              <input type="text" id="c-subject" name="subject" required placeholder="What's this about?" />
+              <label for="organisation">Organisation / Institution</label>
+              <input type="text" id="organisation" name="organisation" placeholder="Where you work or study" />
+            </div>
+
+            <div class="form-group">
+              <label for="meeting-type">What would you like to discuss? *</label>
+              <select id="meeting-type" name="meeting_type" required>
+                <option value="" disabled selected>Select a topic</option>
+                <option value="leadership">Leadership opportunity or role</option>
+                <option value="advisory">Advisory or consulting engagement</option>
+                <option value="collaboration">Research or program collaboration</option>
+                <option value="speaking">Speaking or workshop invitation</option>
+                <option value="ai-literacy">AI literacy program enquiry</option>
+                <option value="governance">Higher ed governance consultation</option>
+                <option value="other">General enquiry</option>
+              </select>
             </div>
 
             <div class="form-group">
               <label for="c-message">Message *</label>
-              <textarea id="c-message" name="message" required placeholder="Your message..."></textarea>
+              <textarea id="c-message" name="message" required placeholder="A brief description of what you'd like to discuss..."></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
-            <div class="success-msg" id="c-success">Message sent — I'll be in touch soon.</div>
+            <div class="success-msg" id="c-success">Message sent — I'll be in touch within 2–3 business days.</div>
+
           </form>
         </div>
 
-        <!-- Contact info -->
+        <!-- Sidebar -->
         <div>
-          <h2 style="margin-bottom:1.5rem;">Other ways to reach me</h2>
+          <h2 style="margin-bottom:1.2rem;">What I'm open to</h2>
 
-          <div class="entry" style="margin-bottom:1.5rem;">
-            <div class="org">Email</div>
+          <div class="card" style="margin-bottom:1rem;">
+            <div class="card-icon">🏛️</div>
+            <h3>Leadership Roles</h3>
+            <p>Director, VP, Head of Programs, Dean, or equivalent — in higher education, development sector, or policy bodies. Open to remote-friendly roles based in Hyderabad.</p>
+          </div>
+
+          <div class="card" style="margin-bottom:1rem;">
+            <div class="card-icon">🤝</div>
+            <h3>Advisory &amp; Consulting</h3>
+            <p>Engagements on higher ed governance, AI literacy program design, faculty development, or curriculum reform.</p>
+          </div>
+
+          <div class="card" style="margin-bottom:1rem;">
+            <div class="card-icon">🎤</div>
+            <h3>Speaking &amp; Workshops</h3>
+            <p>Keynotes, panels, and workshops on AI in higher education, equity in learning systems, and governance innovation.</p>
+          </div>
+
+          <div class="card" style="margin-bottom:1.5rem;">
+            <div class="card-icon">🌐</div>
+            <h3>Collaborations</h3>
+            <p>Joint research, curriculum co-design, or program partnerships — especially centred on first-generation learners and Indian higher education.</p>
+          </div>
+
+          <div style="padding:1rem 1.2rem; background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius);">
+            <div class="org" style="margin-bottom:0.3rem;">Direct email</div>
             <p><a href="mailto:pavania.harvard2025@gmail.com" style="color:var(--accent);">pavania.harvard2025@gmail.com</a></p>
-          </div>
-
-          <div class="entry" style="margin-bottom:1.5rem;">
-            <div class="org">LinkedIn</div>
+            <div class="org" style="margin-top:0.8rem; margin-bottom:0.3rem;">LinkedIn</div>
             <p><a href="https://www.linkedin.com/in/pavaniasn" target="_blank" rel="noopener" style="color:var(--accent);">linkedin.com/in/pavaniasn</a></p>
-          </div>
-
-          <div class="entry" style="margin-bottom:1.5rem;">
-            <div class="org">GitHub</div>
-            <p><a href="https://github.com/pavaniasn" target="_blank" rel="noopener" style="color:var(--accent);">github.com/pavaniasn</a></p>
-          </div>
-
-          <div class="entry">
-            <div class="org">Location</div>
-            <p>Hyderabad, India &nbsp;·&nbsp; Open to remote</p>
-          </div>
-
-          <div style="margin-top:2rem; padding:1rem 1.2rem; background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius);">
-            <p class="text-muted" style="margin-bottom:0.2rem;"><strong style="color:var(--ink);">For a scheduled meeting</strong></p>
-            <p class="text-muted" style="margin-bottom:0.8rem;">Use the full appointment request form to share context and preferred timing.</p>
-            <a href="appointments.html" class="btn btn-outline" style="font-size:0.82rem; padding:0.5rem 1rem;">Request an Appointment →</a>
+            <div class="org" style="margin-top:0.8rem; margin-bottom:0.3rem;">Location</div>
+            <p style="font-family:'Helvetica Neue',Arial,sans-serif; font-size:0.875rem; color:var(--mid);">Hyderabad, India &nbsp;·&nbsp; Open to remote</p>
           </div>
         </div>
 
@@ -119,10 +146,12 @@
   function handleContact(e) {
     e.preventDefault();
     const data = new FormData(document.getElementById('contact-form'));
-    const body = encodeURIComponent(`From: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`);
-    window.location.href = `mailto:pavania.harvard2025@gmail.com?subject=${encodeURIComponent(data.get('subject'))}&body=${body}`;
-    const msg = document.getElementById('c-success');
-    msg.style.display = 'block';
+    const name  = `${data.get('first_name')} ${data.get('last_name')}`;
+    const org   = data.get('organisation') || 'Not provided';
+    const topic = data.get('meeting_type');
+    const body  = encodeURIComponent(`Name: ${name}\nEmail: ${data.get('email')}\nOrganisation: ${org}\nTopic: ${topic}\n\n${data.get('message')}`);
+    window.location.href = `mailto:pavania.harvard2025@gmail.com?subject=${encodeURIComponent('Enquiry — ' + topic)}&body=${body}`;
+    document.getElementById('c-success').style.display = 'block';
     document.getElementById('contact-form').reset();
   }
 </script>
