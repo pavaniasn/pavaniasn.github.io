@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,48 +8,6 @@
   <title>Manan — Pavani Ayinampudi</title>
   <meta name="description" content="Manan — reflections on higher education, AI literacy, equity, and the systems we build for learning, by Pavani Ayinampudi." />
   <link rel="stylesheet" href="style.css" />
-  <style>
-    .post { max-width: 640px; padding: 3.5rem 0; border-top: 1px solid var(--border); }
-    .post:first-of-type { border-top: none; }
-    .post-meta {
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: 0.78rem;
-      color: var(--muted);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      margin-bottom: 0.8rem;
-    }
-    .post h2 {
-      font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-      letter-spacing: -0.02em;
-      margin-bottom: 0.9rem;
-      color: var(--ink);
-    }
-    .post-body p {
-      font-family: 'Georgia', serif;
-      font-size: 1rem;
-      color: var(--mid);
-      line-height: 1.8;
-      margin-bottom: 1.1rem;
-    }
-    .post-body p:last-child { margin-bottom: 0; }
-    .post-body h3 {
-      font-size: 1.05rem;
-      color: var(--ink);
-      margin: 1.6rem 0 0.5rem;
-    }
-    .post-body ul {
-      padding-left: 1.2rem;
-      margin-bottom: 1.1rem;
-    }
-    .post-body li {
-      font-family: 'Georgia', serif;
-      font-size: 1rem;
-      color: var(--mid);
-      line-height: 1.8;
-      margin-bottom: 0.3rem;
-    }
-  </style>
 </head>
 <body>
 
@@ -76,81 +36,15 @@
 
     <section style="padding-top: 1rem;">
 
-      <article class="post">
-        <div class="post-meta">July 24, 2026</div>
-        <h2>The Summer I Turned Teacher</h2>
-        <div class="post-body">
-          <p>After my research years, I had to choose between postdoc research/industry, or teaching. Honestly, I wasn't chasing teaching. People kept telling me I was good at communicating ideas clearly, so I thought, maybe I am, let me try. And it worked. My students were happy. I was happy. No, this is not the end of story.</p>
-          <p>Somewhere in there, I started noticing the other problems around me: administration, leadership, management, the support systems faculty needed and didn't have. I'd watch colleagues who were accomplished scholars struggle with the little things, partly because no one had ever trained them for that part of the job, and partly because the system itself made it hard. Myself included. That's what pulled me out of the classroom and when I decided to make education my career, I chose to focus on building the systems that empower teachers.</p>
-          <p>The work so far has been satisfying. I don't think I ever consciously missed the classroom as there's a lot of facilitation in faculty development too, just aimed at a different room. In my five years away from teaching, there were only two moments that pulled me back to what it feels like to be a teacher, really feel it from the inside.</p>
-          <p>The first was watching my professors at Harvard: Kathy, Matt, Joe, and many more. Sitting in Matt's class, in Kathy's office hours, watching how they connected with students, how much it shaped me as a person and the way I approach education. That was the first time the power of a teacher gave me goosebumps and, right behind it, a small doubt about whether I'd been right to leave the classroom at all. I knew I wasn't Kathy or Matt. But even a fraction of who they were felt like enough to matter. It was powerful, but fleeting; a thought I didn't hold onto for long.</p>
-          <p>The second moment is this summer, when the team, especially Prof. Sudarshan, gently nudged me to handle a few sessions in our internship program — that program deserves its own article, so I'll leave it there for now.</p>
-          <p>My first reaction was anxiety. I've never thought of myself as a great teacher, and I'd be doing this alongside Sudarshan and Prakash, who come alive the moment they're in front of students. Watching the two of them with a room is a bit like watching that scene "O Captain, my Captain," from the movie, <em>Dead Poet's society</em>. I'm not that teacher so standing next to them added its own pressure.</p>
-          <p>But like most big decisions in my life, I landed on: what the hell, let me just try.</p>
-          <p>I ended up taking sessions all summer, and I still do. I don't know if I'm doing justice to my students. Nobody handed me a feedback form or a course eval, and with 600, sometimes 700, students on a single Zoom call, there's never really been a mechanism for that. What I got instead were screens filling up with hearts and smiling-face emojis throughout the session, and LinkedIn posts where students tagged me afterward, saying something had landed. That's the only evidence I've got, and somehow it's enough.</p>
-          <p>I still don't know how much of what I said will stay with them but I know what will stay with me. I know one of them draws. I know one of them photographs. I know one of them wrote a script for an entire web series, ten seasons of it! I know some of them built creative features for our open source projects I never would have thought of. I know some of them show up every single day despite challenges I can only guess at. And one of them has two pets, Tyson and Jenny, who somehow found their way into our conversations too. I also know the quiet ones; the ones who never spoke a single word in two months but their smiles and nods in a small box on my 14" screen were my cues while I was speaking, my silent cheerleaders through every session.</p>
-          <p>Yesterday, in a team conversation, when each of us were reflecting on our milestones, on what we'd each remember decades from now, I didn't say it out loud then but I know the answer: this summer. The summer I turned teacher. One of the chapters I'll bookmark in my life's journey.</p>
-          <p>I want to be clear, though. This isn't me quietly planning a return to the classroom. I'm just glad that my work doesn't force me to choose. I get to work on my mission, building programs that help faculty become better teachers at scale, while staying close enough to be part of the change that happens in a single classroom too. The way I see it, there's the first-order change a good teacher makes with their own class, and there's the second-order change that ripples out when a faculty member walks away better equipped. This summer, for a few weeks, I got to stand in both. And I don't plan to make it the last one :)</p>
-        </div>
+      {% assign posts = site.manan | sort: "date" | reverse %}
+      {% for post in posts %}
+      <article class="post-card">
+        <div class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-excerpt">{{ post.summary | default: post.excerpt | strip_html | normalize_whitespace | truncate: 220 }}</p>
+        <a class="post-more" href="{{ post.url | relative_url }}">Read more →</a>
       </article>
-
-      <article class="post">
-        <div class="post-meta">June 24, 2026</div>
-        <h2>Always Busy</h2>
-        <div class="post-body">
-          <p>Paul Graham has a short essay called <em>How to Lose Time and Money</em> where he makes a point about fake work — work that looks like work, feels like work, but produces nothing of consequence. Because it doesn't look like self-indulgence, the internal alarm never rings. Cal Newport, in <em>Deep Work</em>, gives that distinction a vocabulary: deep work, which is cognitively demanding and requires your specific thinking, and shallow work, which is necessary and often urgent but could be done by almost anyone with reasonable training.</p>
-          <p>I read both with a sense of recognition. But the question that stayed with me was not theirs. It was mine.</p>
-          <p>A real workday has both kinds of work. Always. There is no version of professional life where you only do one. You think, you build, you figure something out — and you also coordinate, respond, attend, manage the logistics of being in an organisation. Both are real. Both are necessary. The proportion, though, is not fixed.</p>
-          <p>What I've been noticing — and I mean noticing over years, not just days — is that the combination shifts as I move through different roles and phases of my career. Early on, a large part of the work is responsive: understanding context, learning how things function, doing what's asked well. The shallow end, by Newport's definition, dominates — not because you're less capable, but because that's the nature of where you're standing. As you move up, or across, or deeper into an area of work, something changes. The expectation shifts. The work that's actually yours — the judgment calls, the things only you can build or say or decide — starts to grow.</p>
-          <p>But here's what I find myself sitting with: how much of that shift happens to me, and how much do I have a hand in it?</p>
-          <p>Because I think it can go either way. It's entirely possible to be in a senior role and still spend most of your time at the shallow end — managing, coordinating, responding, being present everywhere — without ever quite getting to the work that required you specifically. The role doesn't automatically give you the proportion. And it's also possible, even early in a career, to start carving out the space where your thinking matters, where something wouldn't exist without you.</p>
-          <p>So the question isn't just "what is my work made of right now?" It's "am I being intentional about how that combination evolves?"</p>
-          <p>That's a harder question, because it requires being honest about agency. Some of the proportion is genuinely outside your control — what your role demands, what the organisation needs from you at this moment, what phase you're in. But not all of it. And I think we don't ask ourselves often enough: in the parts I can shape, am I shaping them toward the work that's actually mine?</p>
-          <p>I keep coming back to this when we talk about work-life balance. The conversation often assumes we know what the work side of that equation is made of — and I'm not sure we do. Or at least, I'm not sure I always do. If I haven't reflected on the proportion within my work, and whether I'm moving toward it with any intention, then what am I balancing against the rest of my life? A feeling of busyness? A full calendar?</p>
-          <p>The first balance is inside the work itself. And it's less about judging any given day and more about developing, over time, a clearer picture of what your work actually looks like — and whether you're moving toward the version of it that's genuinely yours.</p>
-          <p>I'm still figuring out what that looks like for me. But I think the question is worth asking, and asking again, as things shift.</p>
-        </div>
-      </article>
-
-      <article class="post">
-        <div class="post-meta">June 19, 2026</div>
-        <h2>Who Are You Comparing Yourself To?</h2>
-        <div class="post-body">
-          <p>The other day, a colleague of mine mentioned Malcolm Gladwell in passing — something about how success is shaped by factors beyond talent, beyond grit, beyond the effort we put in. That's a familiar Gladwell argument, and I'd nodded along to it before. But it got me curious about his other work, and that curiosity led me to a video of him speaking at Google Zeitgeist where he says, plainly: "If you want to get a science and math degree, don't go to Harvard."</p>
-          <p>I stopped. Being a Harvard alum myself, I didn't know whether to laugh or feel defensive.</p>
-          <p>So I kept reading. Gladwell was pointing to something called the Big Fish, Little Pond effect — the idea that your experience of your own ability is shaped not by how capable you actually are, but by who you are standing next to. A student who might have thrived and stayed in science at a mid-tier college walks into Harvard, looks around, feels like the least capable person in the room, and quietly stops believing they belong there. Not because they weren't smart. Because of the pond they were in.</p>
-          <p>That led me to Samuel Stouffer, a researcher who studied American soldiers during World War II. He wanted to know which soldiers felt most satisfied — most like the system was working for them. His hypothesis was obvious: soldiers in units with higher promotion rates must be happier. More opportunity, more morale. Simple.</p>
-          <p>The results were the opposite. Soldiers in high-promotion units felt worse. Because in those units, they watched peers advance every single day. The comparison was constant, unavoidable, and it made those who hadn't been promoted yet feel like they were falling behind. Meanwhile, in units where promotions were rare, nobody felt left behind — because nobody was ahead of them to feel bad about.</p>
-          <p>Stouffer called this relative deprivation. And I'd never heard of it before that afternoon.</p>
-          <p>That led me to Leon Festinger and his Social Comparison Theory — the observation that we have no internal compass for measuring our own worth. We look sideways. We find someone close to our level and use them as the reference point. I am learning there is this much to discover just by following one curious thread. That itself felt worth sitting with.</p>
-          <p>But what surprised me more was how quickly all of this brought me back to my mother.</p>
-          <p>Her first question, whenever I mentioned making a new friend growing up, was always: "Is she a topper in your class? Is he doing well?" I used to think she was judging my friendships. Now I think she understood something intuitively that Stouffer and Festinger eventually put names to — that the company you keep shapes how you see yourself, and what you reach for.</p>
-          <p>I don't know if that was her wiring me, or something I built on my own from there. But somewhere along the way, I started keeping company with people I genuinely look up to — people who are doing something better than me, psychologically, emotionally, intellectually. It doesn't have to be the same dimension every time. Just: someone I can learn from by proximity.</p>
-          <p>Which means I have probably always been in a state of relative deprivation, if we're using the term correctly. I am usually the person in the room who feels like the least accomplished one there.</p>
-          <p>I used to read that as an inferiority complex. Now I'm less sure.</p>
-          <p>What was interesting about taking all of this to the students I was speaking to — a room full of interns — was realizing that I had been living some version of this all along, without the vocabulary. I had never heard of Stouffer or Festinger before, never known the terms relative deprivation or social comparison theory. And yet something in me had already been practicing what they describe — through instinct, or upbringing, or something in between. The theories gave me a name for what I was already doing. That's what good frameworks do, I think.</p>
-          <p>The question I keep sitting with though: comparison is so deeply human. It is wired into us. So when does it tip? When does something so natural start curdling into envy, or resentment, or something that makes us smaller rather than larger? I don't have an answer. But I think knowing that the comparison is happening — and choosing, even partly, what you do with it — is where something shifts.</p>
-        </div>
-      </article>
-
-      <article class="post">
-        <div class="post-meta">June 2, 2026</div>
-        <h2>On Luck, Grace, and the Work in Between</h2>
-        <div class="post-body">
-          <p>Many times, when I've asked people how they got to where they are, they've walked me through the work, the hours, the decisions, the risks. But just as many times, I've heard: "I was lucky. God's grace. Right place, right time."</p>
-          <p>I came across a line by Paul Graham recently that stayed with me: "Make yourself a big target for luck." His argument is that curiosity expands your surface area. Read, meet people, ask questions, try things, and luck has more places to land.</p>
-          <p>I took that idea into a morning talk with a thousand students. And somewhere in that room, a thought surfaced that I hadn't planned.</p>
-          <p>We say "right place, right time, right people," but then we call it luck. Why? Because we can't draw the straight line backward. The chain is too long, too non-linear, too full of small invisible decisions. So we collapse it. We call it luck because it's easier.</p>
-          <p>But here's what that collapsing costs us: it erases our own role in getting there. The book we read. The room we chose to walk into. The risk we took when we didn't have to.</p>
-          <p>I don't disagree with the luck and grace framing. I say it myself. I am a deeply spiritual person, and I have genuinely attributed so much of my own trajectory to divine grace, the people I met, the opportunities that appeared, the doors that opened when I wasn't even knocking. I mean that sincerely, not as a figure of speech.</p>
-          <p>But here is the question I keep sitting with: would those same people, those same chance encounters, have shaped my life the way they did if I hadn't shown up the way I did? If I hadn't read what I read, asked what I asked, stayed in rooms I was intimidated by?</p>
-          <p>I don't know. And I'm not sure I can know.</p>
-          <p>What I do notice is this: when we reach for "luck" or "grace" to explain an outcome, there is a quiet risk. Not that we're wrong, but that we erase, without meaning to, the effort that created the conditions for that grace to land.</p>
-          <p>And then the bigger question, the one I don't have an answer to: does this even play out the same way for everyone? Does how much we attribute to luck versus effort depend on where we come from, our culture, our class, our gender, where we sit in the social hierarchy? Is "I worked hard and made it happen" a narrative more available to some than others? And is "it was God's grace" sometimes the most honest thing a person can say, because the structural odds were so stacked that effort alone couldn't have been enough?</p>
-          <p>I'm genuinely asking. I don't have a position to defend here. Just a question I find myself unable to leave alone.</p>
-          <p>Paul Graham says make yourself a big target. I'd add: and when luck finds you, be honest about what you also did to be standing there. And maybe, honest too about whether that path was equally available to begin with.</p>
-        </div>
-      </article>
+      {% endfor %}
 
     </section>
 

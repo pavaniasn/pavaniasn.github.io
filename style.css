@@ -424,3 +424,98 @@ footer a { color: var(--accent); text-decoration: none; }
   display: none;
   margin-top: 1rem;
 }
+
+/* ── Manan: writing index ── */
+.post-card {
+  max-width: 640px;
+  padding: 2.4rem 0;
+  border-top: 1px solid var(--border);
+}
+.post-card:first-of-type { border-top: none; }
+
+.post-meta {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.post-card h2 {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.7rem;
+}
+.post-card h2 a { color: var(--ink); text-decoration: none; }
+.post-card h2 a:hover { color: var(--accent); }
+
+.post-excerpt {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  color: var(--mid);
+  line-height: 1.8;
+  margin-bottom: 0.9rem;
+}
+
+.post-more {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+.post-more:hover { text-decoration: underline; }
+
+/* ── Manan: single piece ── */
+.post-full {
+  max-width: 640px;
+  padding: 3.5rem 0 1rem;
+}
+.post-full h1 {
+  font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+  letter-spacing: -0.025em;
+  margin-bottom: 1.6rem;
+  color: var(--ink);
+}
+
+.post-body p {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  color: var(--mid);
+  line-height: 1.8;
+  margin-bottom: 1.1rem;
+}
+.post-body p:last-child { margin-bottom: 0; }
+.post-body h3 {
+  font-size: 1.05rem;
+  color: var(--ink);
+  margin: 1.6rem 0 0.5rem;
+}
+.post-body ul { padding-left: 1.2rem; margin-bottom: 1.1rem; }
+.post-body li {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  color: var(--mid);
+  line-height: 1.8;
+  margin-bottom: 0.3rem;
+}
+.post-body em { font-style: italic; }
+.post-body blockquote {
+  border-left: 2px solid var(--border);
+  padding-left: 1.1rem;
+  margin: 0 0 1.1rem;
+  color: var(--muted);
+}
+
+.post-back {
+  max-width: 640px;
+  padding: 2rem 0 3.5rem;
+  border-top: 1px solid var(--border);
+}
+.post-back a {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+.post-back a:hover { text-decoration: underline; }

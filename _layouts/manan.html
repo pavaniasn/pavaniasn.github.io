@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} — Pavani Ayinampudi</title>
+  <meta name="description" content="{{ page.summary | default: page.title }}" />
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="{{ '/index.html' | relative_url }}">Pavani Ayinampudi</a>
+    <ul>
+      <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/research.html' | relative_url }}">Research</a></li>
+      <li><a href="{{ '/portfolio.html' | relative_url }}">Portfolio</a></li>
+      <li><a href="{{ '/teaching.html' | relative_url }}">Teaching</a></li>
+      <li><a href="{{ '/writing.html' | relative_url }}" class="active">Manan</a></li>
+      <li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+
+    <article class="post-full">
+      <div class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</div>
+      <h1>{{ page.title }}</h1>
+      <div class="post-body">
+        {{ content }}
+      </div>
+    </article>
+
+    <div class="post-back">
+      <a href="{{ '/writing.html' | relative_url }}">← All writing</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2025 Pavani Ayinampudi &nbsp;·&nbsp; <a href="mailto:pavania.harvard2025@gmail.com">pavania.harvard2025@gmail.com</a> &nbsp;·&nbsp; Hyderabad, India</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+title: Pavani Ayinampudi
+description: Learning Innovation and Process Architecture — research, teaching, and writing.
+url: "https://pavaniasn.github.io"
+
+# Each piece of writing lives as its own file in _manan/
+# Filenames are dated so the folder stays in order; the URL uses the `slug`
+# from the file's front matter, e.g. /manan/summer-i-turned-teacher/
+collections:
+  manan:
+    output: true
+    permalink: /manan/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: manan
+    values:
+      layout: manan
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
