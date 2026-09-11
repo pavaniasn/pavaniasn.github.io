@@ -68,4 +68,4 @@ At Vicharanashala, we keep asking them anyway. Some of what we try works. Some o
 
 ---
 
-*This is part of [Vi-Prayoga](https://vicharanashala.github.io/vicharanashala-ai/logs/vi-prayoga/) — where we document the small experiments that shape how we teach at Vicharanashala.*
+*This is part of [Vi-Prayoga](https://vicharanashala.ai/logs/vi-prayoga/) — where we document the small experiments that shape how we teach at Vicharanashala.*
