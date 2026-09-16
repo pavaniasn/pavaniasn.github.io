@@ -2,20 +2,24 @@ title: Pavani Ayinampudi
 description: Learning Innovation and Process Architecture — research, teaching, and writing.
 url: "https://pavaniasn.github.io"
 
-# Each piece of writing lives as its own file in _manan/
+# Each piece of writing lives as its own file in _mananam/
 # Filenames are dated so the folder stays in order; the URL uses the `slug`
-# from the file's front matter, e.g. /manan/summer-i-turned-teacher/
+# from the file's front matter, e.g. /mananam/summer-i-turned-teacher/
 collections:
-  manan:
+  mananam:
     output: true
-    permalink: /manan/:title/
+    permalink: /mananam/:title/
 
 defaults:
   - scope:
       path: ""
-      type: manan
+      type: mananam
     values:
-      layout: manan
+      layout: mananam
+
+# Keeps the old /manan/... URLs working after the rename to Mananam.
+plugins:
+  - jekyll-redirect-from
 
 exclude:
   - README.md

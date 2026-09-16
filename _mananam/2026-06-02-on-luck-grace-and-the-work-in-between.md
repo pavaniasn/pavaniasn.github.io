@@ -1,6 +1,8 @@
 ---
 title: "On Luck, Grace, and the Work in Between"
 slug: on-luck-grace-and-the-work-in-between
+redirect_from:
+  - /manan/on-luck-grace-and-the-work-in-between/
 summary: >-
   We say luck, we say grace. But what does that framing quietly erase — and is it a story equally available to everyone?
 date: 2026-06-02

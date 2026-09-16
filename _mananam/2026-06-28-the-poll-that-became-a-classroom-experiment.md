@@ -1,6 +1,8 @@
 ---
 title: "The Poll That Became a Classroom Experiment"
 slug: the-poll-that-became-a-classroom-experiment
+redirect_from:
+  - /manan/the-poll-that-became-a-classroom-experiment/
 summary: >-
   A small experiment in keeping 800 students awake — and what it taught us about learning.
 date: 2026-06-28

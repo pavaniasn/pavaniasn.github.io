@@ -1,6 +1,8 @@
 ---
 title: "Who Are You Comparing Yourself To?"
 slug: who-are-you-comparing-yourself-to
+redirect_from:
+  - /manan/who-are-you-comparing-yourself-to/
 summary: >-
   A passing mention of Malcolm Gladwell led me to Stouffer, Festinger, and relative deprivation — and to something my mother understood long before I had the vocabulary for it.
 date: 2026-06-19

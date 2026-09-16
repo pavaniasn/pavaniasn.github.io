@@ -1,6 +1,8 @@
 ---
 title: "The Summer I Turned Teacher"
 slug: summer-i-turned-teacher
+redirect_from:
+  - /manan/summer-i-turned-teacher/
 summary: >-
   After five years away from the classroom, two moments pulled me back — and this summer I taught again, to 600 students on a Zoom call, with nothing but emojis for feedback.
 date: 2026-07-24

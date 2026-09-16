@@ -1,6 +1,8 @@
 ---
 title: "From Wine Making to Wine Tasting"
 slug: from-wine-making-to-wine-tasting
+redirect_from:
+  - /manan/from-wine-making-to-wine-tasting/
 summary: >-
   There are two ways to master wine. Both are real expertise. They are not the same
   expertise. And I've been thinking about which one the age of AI is actually asking us for.

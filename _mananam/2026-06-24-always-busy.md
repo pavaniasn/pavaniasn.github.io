@@ -1,6 +1,8 @@
 ---
 title: "Always Busy"
 slug: always-busy
+redirect_from:
+  - /manan/always-busy/
 summary: >-
   Every workday holds both deep and shallow work. The proportion isn't fixed — so how much of that shift happens to me, and how much do I have a hand in?
 date: 2026-06-24
