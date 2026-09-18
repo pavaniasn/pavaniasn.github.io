@@ -1,11 +1,11 @@
 ---
-title: "From Wine Making to Wine Tasting"
+title: "We Teach the Making. The Work Now Asks for Judging."
 slug: from-wine-making-to-wine-tasting
 redirect_from:
   - /manan/from-wine-making-to-wine-tasting/
 summary: >-
-  There are two ways to master wine. Both are real expertise. They are not the same
-  expertise. And I've been thinking about which one the age of AI is actually asking us for.
+  There are two ways to master wine: make it, or taste it. Both are real expertise.
+  I've been wondering which one we're actually teaching for.
 date: 2026-08-08
 ---
 
