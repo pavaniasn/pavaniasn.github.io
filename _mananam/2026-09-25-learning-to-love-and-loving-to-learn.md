@@ -22,28 +22,25 @@ different prior knowledge to it.
 Sorry for using the learning science term. But I think it is needed for the segue into what I
 want to say next.
 
-As someone moves through the cycles, the feeling changes — less of the wildness and the
-unknownness, more of the known and the familiar. And the external things that sit around
-love — security, societal expectations, validation — begin to loosen their hold. Somewhere
+As someone moves through the cycles, the feeling changes. There is less of the wildness and the unknownness, and more of the known and the familiar. And the external things that sit around love, like security, societal expectations and validation, begin to loosen their hold. Somewhere
 along the way, loving another human being, and being able to feel that in your heart, becomes
 enough on its own.
 
 Though all of this comes with a condition. It assumes you went back and sat with what happened.
 We all know someone who has fallen in love a couple of times and walks into the next one
-exactly as they walked into the first — the same blind spots, the same mistakes, the same story
+exactly as they walked into the first: the same blind spots, the same mistakes, the same story
 told again with a different name in it. Living through something is not the same as learning
 from it, and nobody ever sits us down and explains the difference.
 
 I was turning this over on a late evening, nothing but music playing, thinking about my own
-story and my friends' stories, when the thought arrived sideways — does this apply to our love
+story and my friends' stories, when the thought arrived sideways. Does this apply to our love
 for learning too? Not just our love for a person.
 
 I would like to call myself a lifelong learner, and to stay true to that to the best of my
 abilities. So let me trace it.
 
 I remember learning in school. There were subjects I liked and subjects I didn't. With the ones
-I liked, I genuinely enjoyed the learning. But there was an external motivator riding along with
-it — the board exams, admission into a good college. Isn't that an additional thing driving it,
+I liked, I genuinely enjoyed the learning. But there was an external motivator riding along with it: the board exams, and admission into a good college. Isn't that an additional thing driving it,
 on top of the love for learning?
 
 Similarly in college. I picked my discipline and loved learning it, maybe more than before. But
@@ -51,33 +48,31 @@ there was an external motivator there too: a degree, a placement, publications.
 
 It is not that I didn't love learning then. I did.
 
-I read well, but only inside my discipline — academic books, research articles. Reading was
+I read well, but only inside my discipline: academic books and research articles. Reading was
 work that happened to be enjoyable. For various reasons, I didn't read anything outside it for
 years, and people are surprised to hear that, because they only see how much I read today.
 Then one day, in a staff meeting, a former superior of mine recited a few lines about the power
 of the human will, from James Allen's *As a Man Thinketh*. He was trying to inspire the room.
 It moved me enough that I bought the book that same day and read it.
 
-Until that day, my goal with reading had been to learn something — academically, or for
-knowledge. That was the first time I experienced reading as joy.
+Until that day, my goal with reading had been to learn something, academically or for knowledge. That was the first time I experienced reading as joy.
 
 Today I have a collection of books at home that has nothing to do with my work. Nothing at all.
 
 But that did not happen overnight. Somewhere in those years, what I was after stopped being
 information and knowledge; it became the act of reading itself. It took years of reflection to
-get there — working out my own style, what I like, what inspires me, whose writing moves me
+get there, working out my own style, what I like, what inspires me, whose writing moves me
 most. I no longer go by anybody's recommendations. I have my own taste now, and I curate my own
 library. Nobody taught me how to do that either.
 
 And what I love about them now is not only what I take away from them. It is the beauty of
-human thought itself — that a person was able to build something like this in their mind, and
+human thought itself: that a person was able to build something like this in their mind, and
 then put it out in language this good. It could be anything. Poetry. Science. A piece on where
 technology is going. Somebody's take on geopolitics. The idea that this thought was processed
-in a human mind and came out like *this* — that is sheer joy for me.
+in a human mind and came out like *this*. That is sheer joy for me.
 
 Now there is no external motivator. Well, maybe except for the research articles and policy
-reports I read for work now and then. But the rest of my reading, the one outside work, has
-none — no degree, no placement, no publication. And surprisingly, it is the one I enjoy the
+reports I read for work now and then. But the rest of my reading, the one outside work, has none: no degree, no placement, no publication. And surprisingly, it is the one I enjoy the
 most. Just like the relationships I hold today, where loving itself is enough.
 
 I am not saying external motivators are bad, or that what I had in school and college was a
@@ -85,8 +80,7 @@ lesser form of learning, or of loving. It was different. The same word, two diff
 But purely as an observer, and as someone who walked this path myself, it looks to me like a
 natural evolution. Is there a stage beyond this? I don't know yet.
 
-Since I work in education, once I started comparing the two — how we learn to love as we age,
-and how we love to learn as we age — I couldn't leave it alone.
+Since I work in education, once I started comparing how we learn to love as we age with how we love to learn as we age, I couldn't leave it alone.
 
 Is it age? With years, prior knowledge accumulates, so perhaps we simply understand things
 better, love and learning alike.
@@ -110,7 +104,7 @@ experience.
 
 ---
 
-*P.S. — Everything above is a personal opinion, and I would ask you not to read it as a
+*P.S. Everything above is a personal opinion, and I would ask you not to read it as a
 universal claim. In education we have known for centuries that one size does not fit all. If
 that is true for matters of the mind, I would not expect it to be any truer for matters of the
 heart.* :)
