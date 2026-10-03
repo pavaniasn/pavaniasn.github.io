@@ -1,9 +1,9 @@
 ---
-title: "Burn Your Lecture Notes. Forget Everything."
+title: "What a 2,000-Year-Old Sage and a 100-Year-Old Book Agree On About Learning"
 slug: burn-your-lecture-notes
 summary: >-
-  What could a sage from a 2,000-year-old epic and a philosopher from a century ago
-  have in common to say about knowledge and wisdom?
+  Why both a sage and a philosopher tell us to forget what we learnt, and what that
+  means for how I learn.
 date: 2026-10-03
 ---
 
