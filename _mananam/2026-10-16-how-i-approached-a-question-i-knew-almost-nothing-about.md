@@ -48,6 +48,19 @@ A really good friend and I have a phrase for one of our favourite things. We cal
 
 For this question, I used AI to keep the ball moving. This is how I usually work with it. I keep asking questions, and with each response I go back and forth, refining the question each time. AI is only there to help me widen the map, and I make sure I am the one steering. In unfamiliar territory it is tempting to hand over the wheel to whoever seems to know the way, and AI can seem to know everything because of how much it has been trained on. I don't think that works. In this case I had to keep the steering really close, and that is how I reached clarity. There were many moments where the conversation could have led to a distraction, a complete misreading or a U-turn on the idea, and I avoided them because I was holding the wheel.
 
+## My two cents
+
+This isn't a theory or a framework, just what worked for me this time. Take whatever is useful.
+
+- Let the question be bigger than what you know.
+- Put the jargon into plain words before you move on.
+- Take one idea from each stop.
+- Try the swap: change one word in an idea from another field and see if it still fits.
+- Look for names for what you already know.
+- Hold the wheel, especially with AI.
+
+And one question to take back to your own classroom or workplace: does what you reward match what you say you value?
+
 ## A reward I'm not looking for
 
 The whole process reminded me of David Epstein's *Range*, which opens with Roger Federer and Tiger Woods. Tiger specialised early; Roger played many sports before settling on tennis. Maybe, this time, my breadth turned out to be an advantage.
