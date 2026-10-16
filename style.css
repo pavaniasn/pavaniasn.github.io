@@ -500,6 +500,7 @@ footer a { color: var(--accent); text-decoration: none; }
   margin-bottom: 0.3rem;
 }
 .post-body em { font-style: italic; }
+.post-body img { display: block; max-width: 100%; height: auto; border-radius: 10px; margin: 0 0 1.6rem; }
 .post-body blockquote {
   border-left: 2px solid var(--border);
   padding-left: 1.1rem;
