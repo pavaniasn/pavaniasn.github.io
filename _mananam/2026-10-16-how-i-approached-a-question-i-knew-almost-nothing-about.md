@@ -6,7 +6,7 @@ summary: >-
 date: 2026-10-16
 ---
 
-![A dotted path hopping between five stops, economics, philosophy, psychology, Postman and the hidden curriculum, ending at a glowing question mark labelled "a better question"](/assets/mananam/island-hopping-header.png)
+![A stick figure leaping along dotted arrows from one stop to the next inside a brain, towards a lit bulb](/assets/mananam/brain-hopping.png)
 
 Recently, in a discussion at work, a question came up that I could not stop thinking about. Classrooms everywhere use points, badges and ranks, and we know they push individual learners to do more. But what do they do to the class as a whole?
 
