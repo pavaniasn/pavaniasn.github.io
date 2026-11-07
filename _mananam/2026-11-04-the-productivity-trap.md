@@ -36,4 +36,6 @@ Coming back to my friend's question. Just so you know, she is one of the super a
 
 ---
 
+*Like everything here, this is a reflection, not a settled view. I'm still thinking about it, and I'd love to hear where you land.*
+
 *I used AI to help with language in this piece. The ideas and the words are mine.*
